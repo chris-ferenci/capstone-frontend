@@ -1,0 +1,50 @@
+.comm-header{
+    width:100%;
+}
+
+.grower-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.grower-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.grower-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grower-name > h2{
+    font-weight: 500;
+    margin-left: 1rem ;
+}
+
+.grower-name > .button-group{
+    width:100%;
+}
+
+.button-group button{
+    width:100%;
+}
+
+.grower-avatar{
+    width: 64px;
+    height: 64px;
+    border: 2px solid #b3c5b3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.grower-info{
+    display: flex;
+    flex-direction: column;
+}

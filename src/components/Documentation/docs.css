@@ -1,0 +1,14 @@
+#grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% auto ;
+    grid-template-areas: 
+    "header header"
+    "sidebar doc-container";
+    
+  }
+
+#doc-container {
+    display: grid;
+    grid-area: doc-container;
+}

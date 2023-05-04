@@ -1,0 +1,90 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+html, body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+h2{
+    font-size:1.5rem;
+}
+
+h3{
+    font-size:.9rem;
+    font-weight: 700;
+    letter-spacing: .1px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 1rem;
+}
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.btn-group{
+    display:flex;
+}
+
+
+.btn {
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size:.9rem;
+}
+
+a.btn {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight:600;
+}
+
+.btn-primary{
+    background-color: #00502c;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #003226;
+    color: #fff;
+}
+
+.btn-tertiary{
+    background-color: #fff;
+    color: #5F01F5;
+}
+
+.btn-tertiary:hover{
+    background-color: rgb(224, 224, 224);
+    color: #5F01F5;
+}
+
+.btn-outline{
+    background-color: transparent;
+    color: #00502c;
+    border: 2px solid #00502c;
+}
+
+.btn-outline:hover{
+    background-color: #00502c;
+    color: #fff;
+    border: 2px solid #00502c;
+}
