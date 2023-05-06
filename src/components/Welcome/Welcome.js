@@ -24,7 +24,7 @@ function Welcome(){
             <IconContext.Provider value={{ size: "2rem"}}>
 
                 <div className="container">
-                    <h2 className="welcome-header">Welcome to SmartPlant!</h2>
+                    <h2 className="welcome-header">Welcome to SmartPlant</h2>
                     <div className="welcome-container">
                         <div className="welcome-card welcome-sensor-card">
                             <MdSensors/>
