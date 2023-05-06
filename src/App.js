@@ -10,6 +10,7 @@ import Dashboard from './components/Dashboard/Dashboard'
 import SensorList from './components/SensorList/SensorList';
 import SensorForm from './components/SensorForm/SensorForm';
 import Community from './components/Community/Community';
+import Welcome from './components/Welcome/Welcome';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />}>
+          </Route>
+          <Route path="/welcome" element={<Welcome />}>
           </Route>
           <Route path="/gettingstarted" element={<Home />}>
           </Route>

@@ -24,14 +24,18 @@ function Community(){
                     <div className="grower-card">
                         <div className="grower-name">
                             <img className="grower-avatar" src="https://i.pravatar.cc/250/12532163"/>
-                            <h2>Jennifer Cawley</h2>
+                            <h2>User A</h2>
                             
                         </div>
 
                         <p><strong>64 Followers</strong></p>
 
+                        <div className="button-group">
+                            <button className="btn btn-primary">Follow</button>
+                        </div>
+
                         <div className="grower-description">
-                            <p>I own a small farm in Santa Rosa, Ca focusing mainly on sustainable farming practices.</p>
+                            <p>Bringing together a community of plant lovers who share a passion for growing their own food.</p>
                             <h3>Favorite Crops</h3>
                             <ul>
                             <li>Tomatoes</li>
@@ -40,21 +44,23 @@ function Community(){
                             </ul>
                         </div>
 
-                        <div className="button-group">
-                            <button className="btn btn-primary">Follow</button>
-                        </div>
+                        
                     </div>
 
                     <div className="grower-card">
                         <div className="grower-name">
                             <img className="grower-avatar" src="https://i.pravatar.cc/250/2364361"/>
-                            <h2>Jane Marcus</h2>                    
+                            <h2>User B</h2>                    
                         </div>
 
                         <p><strong>52 Followers</strong></p>
 
+                        <div className="button-group">
+                            <button className="btn btn-primary">Follow</button>
+                        </div>
+
                         <div className="grower-description">
-                            <p>I own a small farm in Santa Rosa, Ca focusing mainly on sustainable farming practices.</p>
+                            <p>Sharing the joys of farm life, one post at a time.</p>
                             <h3>Favorite Crops</h3>
                             <ul>
                             <li>Tomatoes</li>
@@ -63,22 +69,24 @@ function Community(){
                             </ul>
                         </div>
 
-                        <div className="button-group">
-                            <button className="btn btn-primary">Follow</button>
-                        </div>
+                        
                     </div>
 
                     <div className="grower-card">
                         <div className="grower-name">
                             <img className="grower-avatar" src="https://i.pravatar.cc/250/1234643"/>
-                            <h2>Kelly Small</h2>
+                            <h2>User C</h2>
                             
                         </div>
 
                         <p><strong>87 Followers</strong></p>
 
+                        <div className="button-group">
+                            <button className="btn btn-primary">Follow</button>
+                        </div>
+
                         <div className="grower-description">
-                            <p>I own a small farm in Santa Rosa, Ca focusing mainly on sustainable farming practices.</p>
+                            <p>Dedicated to creating a sustainable food system through community gardening</p>
                             <h3>Favorite Crops</h3>
                             <ul>
                             <li>Tomatoes</li>
@@ -87,22 +95,24 @@ function Community(){
                             </ul>
                         </div>
 
-                        <div className="button-group">
-                            <button className="btn btn-primary">Follow</button>
-                        </div>
+                       
                     </div>
 
                     <div className="grower-card">
                         <div className="grower-name">
                             <img className="grower-avatar" src="https://i.pravatar.cc/250/146346"/>
-                            <h2>Sandra Poesey</h2>
+                            <h2>User D</h2>
                             
                         </div>
 
                         <p><strong>24 Followers</strong></p>
 
+                        <div className="button-group">
+                            <button className="btn btn-primary">Follow</button>
+                        </div>
+
                         <div className="grower-description">
-                            <p>I own a small farm in Santa Rosa, Ca focusing mainly on sustainable farming practices.</p>
+                            <p>Urban farmer and foodie, sharing recipes and stories from the garden</p>
                             <h3>Favorite Crops</h3>
                             <ul>
                             <li>Tomatoes</li>
@@ -111,9 +121,7 @@ function Community(){
                             </ul>
                         </div>
 
-                        <div className="button-group">
-                            <button className="btn btn-primary">Follow</button>
-                        </div>
+    
                     </div>
 
                     

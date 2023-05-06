@@ -1,6 +1,50 @@
+body {
+    background-color: #fff;
+    color: #2e2e2e;
+}
+
 p {
     font-size: 1.1rem;
     line-height: 1.7rem;
+}
+
+.scroll-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    /* border: 2px solid #00502c; */
+    background-color:transparent;
+
+    color: #00502c;
+}
+
+.scroll-button:hover{
+    background-color: #00311b;
+    color: #fff;
+}
+
+.scroll-icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+
+    width:64px;
+}
+
+.icon img{
+    width: 48px;
+    align-items: center;
+}
+
+.berk-logo{
+    width: 200px;
 }
 
 .landing-container{
@@ -10,6 +54,8 @@ p {
     height: 100vh;
 
 }
+
+
 
 .landing-container h1{
     margin: 0;
@@ -38,7 +84,6 @@ p {
 
 .hero-right{
     width: 50%;
-    background-color: blue;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -55,11 +100,17 @@ p {
 
 .landing-img{
     margin: 0 auto;
-    width: 120%;
+    width: 100%;
 }
 
 .description{
     width: 75%;
+    margin-top: 3rem;
+}
+
+.description > p{
+    font-weight: 300;
+    color: #4c4c4c;
 }
 
 .btn-large {
@@ -69,29 +120,58 @@ p {
     
 }
 
+.btn-text{
+    margin-right: 1rem ;
+}
+
 /* Project Overview */
 .project-overview{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4rem 12rem 4rem 12rem;
+    /* margin-top: -2rem; */
+}
+
+.overview-inner{
     display: flex;
     flex-direction: column;
-    background-color: #00502c;
-    color: #fff;
-    padding: 8rem 8rem 8rem 8rem;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    border-radius: 16px;
+    padding: 2rem 4rem;
+}
+
+.overview-hl{
+    font-weight: 700;
+    color: #00502c;
+}
+
+.overview-right{
+    width:50%;
 }
 
 .overview-header{
     display: flex;
-    align-self: center;
 }
 
 .overview-header h2{
     font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
 }
 
 .overview-body{
     
     display: flex;
     flex-direction: row;
-    text-align: center;
+}
+
+.overview-body p{
+    font-size: 1.3rem;
+    color: #2e2e2e;
 }
 
 /* Dashboard */
@@ -110,6 +190,10 @@ p {
     font-size: 2rem;
 }
 
+.dashboard-header > p{
+    font-size: 1.2rem;
+}
+
 .half-left{
     overflow: hidden;
     width: 50%;
@@ -124,14 +208,15 @@ p {
 /* Team */
 
 #sec-project-team{
-    background-color:#00502c;
+    background-color: #00311b;
+    padding: 2rem;
 }
 
 
 .team-container{
     display: flex;
     flex-direction: row;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .team-header > h2{
@@ -141,8 +226,14 @@ p {
     font-size: 2rem;
 }
 
+.team-header > p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
 .team-member-card{
-    margin: 2rem;
+    margin: 3rem;
     background-color: #fff;
 }
 
@@ -152,6 +243,16 @@ p {
     align-items: center;
     /* margin: 1rem; */
     padding: 1rem;
+}
+
+.card-content > p{
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.card-content > h2 {
+    font-weight: 500;
 }
 
 .team-member-card> img{

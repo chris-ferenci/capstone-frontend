@@ -14,6 +14,8 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 2rem;
     border-radius: 16px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .grower-name {
@@ -29,6 +31,9 @@
 
 .grower-name > .button-group{
     width:100%;
+    margin-top: auto;
+    display: flex;
+  
 }
 
 .button-group button{
@@ -37,7 +42,6 @@
 
 .grower-avatar{
     width: 64px;
-    height: 64px;
     border: 2px solid #b3c5b3;
     position: relative;
     overflow: hidden;

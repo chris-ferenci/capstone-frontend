@@ -138,6 +138,9 @@ function SensorForm() {
                             </div> */}
                         </div>
 
+                        <input type="checkbox" id="location-permission" name="location-permission" value="Bike"/>
+                        <label for="location-permission">I want to contribute to plant monitoring research by allowing SmartPlant to use this data!</label><br></br>
+
                         <button onClick={notify} className="btn submit-button" type="submit">Add Sensor</button>
                         <ToastContainer
                             position="top-center"

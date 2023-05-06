@@ -31,7 +31,7 @@ function Header(){
                 </div>
 
                 <div className="brand-name">
-                    <h1>SmartPlants</h1>
+                    <h1>GardenSense</h1>
                 </div>
                 
                 

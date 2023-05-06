@@ -1,0 +1,64 @@
+.welcome-header-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.welcome-header{
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #00502C;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+.welcome-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+.welcome-card{
+    border-radius: 8px;
+    background: rgb(0,80,44);
+    background: linear-gradient(45deg, rgba(0,80,44,1) 0%, rgba(59,187,130,1) 100%);
+    color: #fff;
+    /* border: 2px solid #00502C; */
+    padding: 2rem;
+}
+
+.guide-card{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 2px solid #00502C;
+}
+
+.header-icon > h2{
+    color: #00502c;
+}
+
+.header-icon > p{
+    color: #2e2e2e;
+}
+
+
+.guide-card ul{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.guide-card li{
+    margin-top: .5rem;
+}
+
+.header-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}

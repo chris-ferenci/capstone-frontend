@@ -8,6 +8,7 @@ import Space from '../Space/Space';
 import { IconContext } from "react-icons";
 import { GoDashboard, GoPlus } from "react-icons/go";
 import { BiLeaf, BiGroup } from "react-icons/bi"
+import { MdSensors } from "react-icons/md";
 
 
 
@@ -32,6 +33,12 @@ function Sidebar(){
                         </Link>
                         </li>
                     </div>
+
+                    <div class="nav-item">
+                        <li><i><BiLeaf/></i>
+                        <Link to="/welcome">Get Started</Link>
+                        </li>
+                    </div>
                     
                     <div class="nav-item">
                         <li><i><GoDashboard/></i>
@@ -40,7 +47,7 @@ function Sidebar(){
                     </div>
 
                     <div class="nav-item">
-                        <li><i><BiLeaf/></i>
+                        <li><i><MdSensors/></i>
                         <Link to="/mysensors">My Sensors</Link>
                         </li>
                     </div>
@@ -55,7 +62,7 @@ function Sidebar(){
                     {/* <h2>My Sensors</h2>
                     <li><Link to="/sensorlist">Sensor List</Link></li>
                     */}
-                    <h3>Documentation and Guides</h3>
+                    {/* <h3>Documentation and Guides</h3>
                     <li><Link to="/setupsensor">Github</Link></li>
                     <li><Link to="/setupsensor">Building a Sensor</Link></li>
                     <li><Link to="/influx">Setup Influx</Link></li>
@@ -63,7 +70,7 @@ function Sidebar(){
 
                     <h3>About</h3>
                     <li><Link to="/team">About the Project</Link></li>
-                    <li><Link to="/team">Team</Link></li>
+                    <li><Link to="/team">Team</Link></li> */}
 
                 </IconContext.Provider>
 
