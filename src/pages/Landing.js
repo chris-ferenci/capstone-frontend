@@ -41,7 +41,7 @@ function Landing() {
                 
 
                     <a href="/welcome" className="btn btn-primary btn-large">
-                        Explore the Beta
+                        Explore the Alpha
                         <IconContext.Provider value={{ size: "1.2rem"}}>
                             <FaChevronRight />
                         </IconContext.Provider>
@@ -163,7 +163,6 @@ function Landing() {
             </div>
 
             <div className='team-container'>
-                
 
                 <div className="team-member-card">
                     <img src={tm_cf} />
