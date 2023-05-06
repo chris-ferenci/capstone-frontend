@@ -23,19 +23,22 @@ function Header(){
 
         <header id="header" className="header">
 
-            <div className="brand">
-                <div className="brand-icon">
-                    <IconContext.Provider value={{size:"1.5rem", color: "#00502c"}}>
-                        <BiLeaf />
-                    </IconContext.Provider>
-                </div>
+            <a href="/welcome">
 
-                <div className="brand-name">
-                    <h1>GardenSense</h1>
+                <div className="brand">
+                    <div className="brand-icon">
+                        <IconContext.Provider value={{size:"1.5rem", color: "#00502c"}}>
+                            <BiLeaf />
+                        </IconContext.Provider>
+                    </div>
+
+                    <div className="brand-name">
+                        <h1>GardenSense</h1>
+                    </div>
+                    
+                    
                 </div>
-                
-                
-            </div>
+            </a>
 
             
 
