@@ -3,6 +3,8 @@ import Sidebar from "../Sidebar/Sidebar";
 
 import './community.css'
 import img_comm from './im-comm.png'
+import { FaRegLightbulb, FaArrowDown, FaArrowUp } from "react-icons/fa";
+
 
 
 
@@ -16,7 +18,57 @@ function Community(){
             <Sidebar />
             
             <div className="container">
-                <h2>Community</h2>
+                <h2>My Community</h2>
+
+                <div className="feed-container">
+                    <div className="column-2">
+                        <h2>Latest Updates</h2>
+                        <div className="feed-item">
+                            <img className="feed-avatar" src="https://i.pravatar.cc/72/12532168"/>
+                            <p>Did you know that some plants can communicate with each other through chemical signals?<span className="feed-sig"> - Intriguing User</span></p>
+                        </div>
+                        <div className="feed-item">
+                            <img className="feed-avatar" src="https://i.pravatar.cc/72/12532164"/>
+                            <p>If you're looking for an all-natural way to keep pests out of your garden, try planting some companion herbs like basil, mint, or lavender.<span className="feed-sig"> - Curious User</span></p>
+                        </div>
+                        <div className="feed-item">
+                            <img className="feed-avatar" src="https://i.pravatar.cc/72/12532161"/>
+                            <p>Want to give your indoor plants a boost? Mix some used coffee grounds into the soil for an extra dose of nutrients. <span className="feed-sig"> - Growing User</span></p>
+                        </div>
+                        <div className="feed-item">
+                            <img className="feed-avatar" src="https://i.pravatar.cc/72/12532167"/>
+                            <p>Want to give your indoor plants a boost? Mix some used coffee grounds into the soil for an extra dose of nutrients. <span className="feed-sig"> - Super User</span></p>
+                        </div>
+                    </div>
+
+                    <div className="column-1">
+                        <h2>Trending Tips</h2>
+
+                        <div className="tip-item">
+                            <div className="tip-vote">
+                                <div className="vert-center">
+                                <FaArrowUp/>58<FaArrowDown/>
+                                </div>
+                            </div>
+                            <p>Water your plants in the morning or evening to prevent evaporation and help them absorb nutrients more efficiently.<span className="feed-sig"> - Intriguing User</span></p>
+                        </div>
+
+                        <div className="tip-item">
+                            <div className="tip-vote">
+                                <div className="vert-center">
+                                <FaArrowUp/>76<FaArrowDown/>
+                                </div>
+                            </div>
+                            <p>Use companion planting to naturally repel pests and improve soil health by planting complementary crops together.<span className="feed-sig"> - Intriguing User</span></p>
+                        </div>
+
+                        
+                    </div>
+
+
+
+                </div>
+
                 <h4>Growers Near Berkeley, CA</h4>
 
                 <div className="grower-card-grid">
@@ -28,7 +80,7 @@ function Community(){
                             
                         </div>
 
-                        <p><strong>64 Followers</strong></p>
+                        <p className="followers">64 followers</p>
 
                         <div className="button-group">
                             <button className="btn btn-primary">Follow</button>
@@ -53,7 +105,7 @@ function Community(){
                             <h2>User B</h2>                    
                         </div>
 
-                        <p><strong>52 Followers</strong></p>
+                        <p className="followers">52 Followers</p>
 
                         <div className="button-group">
                             <button className="btn btn-primary">Follow</button>
@@ -79,7 +131,7 @@ function Community(){
                             
                         </div>
 
-                        <p><strong>87 Followers</strong></p>
+                        <p className="followers">87 Followers</p>
 
                         <div className="button-group">
                             <button className="btn btn-primary">Follow</button>
@@ -105,7 +157,7 @@ function Community(){
                             
                         </div>
 
-                        <p><strong>24 Followers</strong></p>
+                        <p className="followers">24 Followers</p>
 
                         <div className="button-group">
                             <button className="btn btn-primary">Follow</button>

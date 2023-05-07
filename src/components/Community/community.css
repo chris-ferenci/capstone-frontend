@@ -10,6 +10,89 @@
     row-gap: 2rem;
 }
 
+.followers {
+    font-size: 1rem;
+}
+
+
+.feed-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    border-radius: 16px;
+    border: 1px solid #cdcdcd;
+    padding-bottom: 1rem;
+}
+
+.feed-container h2{
+    font-size: 1.2rem;
+}
+
+.feed-item{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.feed-item > p{
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.feed-avatar{
+        min-width: 36px;
+        max-width: 36px;
+        border: 1px solid #b3c5b3;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        align-self: center;
+        margin-right: 1rem;
+}
+
+.feed-sig{
+    color: #767676;
+    font-style: italic;
+}
+
+.column-1 {
+    width: 33%;
+    padding-left: 1rem;
+}
+
+.column-2{
+    width: 66%;
+    padding-left: 1rem;
+
+
+}
+
+.tip-item{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.tip-item p{
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.tip-vote{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.vert-center{
+    align-items: center;
+    text-align: center;
+}
+
 .grower-card{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 2rem;
