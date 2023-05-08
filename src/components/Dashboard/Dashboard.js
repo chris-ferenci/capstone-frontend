@@ -20,7 +20,7 @@ function Dashboard(){
                 
                 <div class="dash-container-inner">
                     <p>Click below to view your Dashboard on Grafana!</p>
-                    <a href="https://grafana.smartplant.live/d/livedata/plant-data-dashboard?orgId=1&var-Device=ESP32&var-Device=ESP32Patio&var-Device=ESP32Two&var-Device=ESP-DUMMY" className="btn btn-primary">View Dashboard</a>
+                    <a href="https://snapshots.raintank.io/dashboard/snapshot/4cEb9yQZi5GcKkvhbXNH1r3pH6YanQCh" className="btn btn-primary">View Dashboard</a>
                     <p><em>Dashboard will open in a new tab</em></p>
                 </div>
                 </div>

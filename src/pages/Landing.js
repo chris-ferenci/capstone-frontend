@@ -41,7 +41,7 @@ function Landing() {
                 
 
                     <a href="/welcome" className="btn btn-primary btn-large">
-                        Explore the Alpha
+                        Explore the Prototype
                         <IconContext.Provider value={{ size: "1.2rem"}}>
                             <FaChevronRight />
                         </IconContext.Provider>
