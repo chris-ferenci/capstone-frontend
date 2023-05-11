@@ -24,7 +24,7 @@ function Welcome(){
             <IconContext.Provider value={{ size: "2rem"}}>
 
                 <div className="container">
-                    <h2 className="welcome-header">Welcome to SmartPlant</h2>
+                    <h2 className="welcome-header">Welcome to GardenSense</h2>
                     <div className="welcome-container">
                         <div className="welcome-card welcome-sensor-card">
                             <MdSensors/>
@@ -44,7 +44,7 @@ function Welcome(){
                         </div>
                     </div>
                     
-                    <div className="guide-card">
+                    {/* <div className="guide-card">
                         <div class="header-icon">
                             <FaRegLightbulb/>
                             <h2>User Guides</h2>
@@ -55,7 +55,7 @@ function Welcome(){
                             <li>Connect Your Sensor</li>
                             <li>Visualize Your Data</li>
                         </ul>
-                    </div>
+                    </div> */}
             </div>
 
             </IconContext.Provider>

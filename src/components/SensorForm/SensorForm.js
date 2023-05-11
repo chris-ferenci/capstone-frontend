@@ -79,7 +79,7 @@ function SensorForm() {
 
             <div class="container">
 
-            <h1>Set Up A New Sensor</h1>
+            <h1>Connect to your sensor</h1>
             
 
                 <div class="form-group">
@@ -129,16 +129,15 @@ function SensorForm() {
                         <div className="inline-block relative w-64">
                             <label htmlFor="sensor_name"><h3>Sensor Name:</h3></label>
                             <select id="sensor_name" name="sensor_name" value={formData.sensor_name} onChange={handleChange}>
-                                <option value="Sensor 1">Sensor 1</option>
-                                <option value="Sensor 2">Sensor 2</option>
-                                <option value="Sensor 3">Sensor 3</option>
+                                <option value="Sensor 1">ESP32Patio</option>
+                                <option value="Sensor 2">ESP32Two</option>
                             </select>
                             {/* <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
                             </div> */}
                         </div>
 
-                        <input type="checkbox" id="location-permission" name="location-permission" value="Bike"/>
+                        <input className="permission" type="checkbox" id="location-permission" name="location-permission" value="terms"/>
                         <label for="location-permission">I want to contribute to plant monitoring research by allowing SmartPlant to use this data!</label><br></br>
 
                         <button onClick={notify} className="btn submit-button" type="submit">Add Sensor</button>

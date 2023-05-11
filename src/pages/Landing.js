@@ -36,7 +36,7 @@ function Landing() {
             <section className='hero-left'>
                 <article className='hero-inner'>
                     <h1>GardenSense</h1>
-                    <h4>Real-time Plant and Crop Data Visualization and Sensing with IoT and Grafana</h4>
+                    <h4>An IoT-based environmental monitoring web application</h4>
 
                 
 
